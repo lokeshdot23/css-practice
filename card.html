@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card of youtube</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .video {
+        display: inline-block;
+      }
+      .thumbnail {
+        width: 350px;
+        height: auto;
+        /* border-radius: 10px; */
+        overflow: visible;
+        /* display: inline-block; */
+      }
+
+      .thumbnail img {
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+        object-fit: cover;
+      }
+      .dp {
+        display: block;
+        border-radius: 50%;
+        height: 40px;
+      }
+      .dp-div {
+        display: block;
+      }
+      .yt-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        width: 280px;
+        line-height: 1.5;
+        margin-bottom: 5px;
+      }
+      .video-stats,
+      .yt-profile,
+      .yt-desc {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 100px;
+        color: rgb(96, 96, 96);
+        line-height: 1.5;
+        width: 295px;
+        margin-bottom: 15px;
+      }
+      .link-alert {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #e34140;
+        display: block;
+        font-size: 14px;
+        width: 100%;
+        padding: 16px;
+        text-align: center;
+        color: white;
+      }
+      .shop-link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="video">
+      <div class="thumbnail">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp"
+          alt="yt-thumbnail"
+        />
+      </div>
+      <div class="dp-div">
+        <img
+          class="dp"
+          src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg"
+          alt="profile pic"
+        />
+      </div>
+      <div>
+        <p class="yt-title">
+          Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p class="video-stats">3.4M views · 6 months ago</p>
+        <p class="yt-profile">Marques Brownlee ✓</p>
+        <p class="yt-desc">
+          Talking tech and AI on the heels of Google I/O. Also a daily driver
+          phone reveal from Google's CEO. Shoutout to Sundar!
+        </p>
+      </div>
+    </div>
+    <p class="link-alert">
+      Shop early for the best selection of holiday favourites.<span
+        class="shop-link"
+      >
+        Shop now ></span
+      >
+    </p>
+  </body>
+</html>
